@@ -7,3 +7,7 @@ Example Use:
 -------------
 $(input).input_calc();
 
+Demo:
+------------
+http://jsfiddle.net/webmech/CRJCp/28/
+
