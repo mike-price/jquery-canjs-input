@@ -1,0 +1,20 @@
+<script type="text/javascript" src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/can.jquery-all.min.js"></script>
+<script type="text/javascript" src="./plugin/jquery.can.inputcalc.js"></script>
+<script type="text/javascript">
+	$(document.body).ready(function(){
+		$('input.input-calc-basic').input_calc();
+
+		/**
+		$('input.input-calc-list').input_calc({
+			items:[["item 01", 10],["item 02", 20],["item 03", 34],["item 04",55]]
+		});
+		**/
+	});
+</script>
+
+<input type="text" class="input-calc-basic" style="position:absolute;top:80px; margin-left:20px" />
+
+<!--
+<input type="text" class="input-calc-list" />
+-->
